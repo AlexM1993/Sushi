@@ -1,0 +1,72 @@
+
+#buttondiv {
+    position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(33, 33, 38);
+}
+
+h1 {
+    color: white
+}
+
+button {
+    background-color: rgba(118, 104, 203) !important;
+    border-radius: 5% !important;
+}
+
+button:hover {
+    background-color: rgba(155, 140, 235) !important;
+    border-radius: 5% !important;
+}
+
+input {
+    background-color: rgba(173, 181, 189);
+}
+
+input:hover {
+    background-color: rgb(231, 239, 248);
+}
+
+label {
+    color: white;
+}
+
+
+
+
+
+ /* #userEmail {
+    margin-bottom: 3.60%;
+    margin-top: -3.60%
+}
+
+#userNickname {
+    margin-bottom: 3.60%;
+    margin-top: -3.60%;
+}
+
+#releaseNickname {
+    margin-bottom: 3.60%;
+    margin-top: -3.60%;
+}
+
+#spanh2 {
+    color:green;
+}
+
+label {
+    margin-top: 3.60%
+} */
