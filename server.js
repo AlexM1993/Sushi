@@ -34,8 +34,8 @@ app.get("/oauth-callback", async (req, res) => {
   const body = {
     code: `${code}`,
     grant_type: "authorization_code",
-    client_id: "71ef9881-b8b4-4f7b-87fa-4c5046d9ef8b",
-    client_secret: "elvC2pP4DgXx71eUkxRj2WqsT22gYgoKw6AxsMti",
+    client_id: "XXX",
+    client_secret: "XXXXX",
 
 
     
@@ -43,7 +43,7 @@ app.get("/oauth-callback", async (req, res) => {
 
 
   const post = await axios.post("https://api.protected.com/auth/protected/oauth/token", body, { headers: {
-    "Authorization": "Basic NzFlZjk4ODEtYjhiNC00ZjdiLTg3ZmEtNGM1MDQ2ZDllZjhiOmVsdkMycFA0RGdYeDcxZVVreFJqMldxc1QyMmdZZ29LdzZBeHNNdGk=",
+    "Authorization": "Basic XXXX",
     "Content-Type": "application/x-www-form-urlencoded",
 
   }});
