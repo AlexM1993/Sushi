@@ -70,7 +70,7 @@ app.get("/oauth-callback", async (req, res) => {
 // app.get("/test", (req, res) => {
 //   res.redirect("https://protected.protected.com/#/users/349ce9cd-b07d-49c0-95f9-eae3cdec9295")
 //   console.log(req.headers)
-// })
+
 
 app.get("/:token", (req, res) => {
   res.render("index")
